@@ -1,6 +1,6 @@
 # Тестовое задание в Адепт
 
-Deploy - soon
+Deploy - [deploy](https://artemvasilencko.github.io/adept-test/)
 
 ### Используемые технологии:
 
