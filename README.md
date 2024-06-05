@@ -1,31 +1,55 @@
-# React + TypeScript + Vite
+# Тестовое задание в Адепт
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Deploy - soon
 
-Currently, two official plugins are available:
+### Используемые технологии:
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
--   Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-    // other rules...
-    parserOptions: {
-        ecmaVersion: 'latest',
-        sourceType: 'module',
-        project: ['./tsconfig.json', './tsconfig.node.json'],
-        tsconfigRootDir: __dirname,
-    },
-}
+```
+сборщик vite, TypeScript, React, ReduxToolKit, json-server
 ```
 
--   Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
--   Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
--   Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# adept-test
+## Для того чтобы запустить приложение локально необходимо пройти 3 этапа
+
+1. Склонировать репозиторий:
+
+```sh 
+git clone git@github.com:ArtemVasilencko/adept-test.git
+```
+
+2. Перейти в директорию склонированного репозитория и запустить установку зависимостей:
+
+```sh
+npm i
+```
+
+3. Запустить приложение (запуск json-server и сборка vite)
+
+```sh
+npm start
+```
+
+### Команда для создания итоговой сборки
+
+```sh
+npm run build
+```
+
+Остались вопросы? Напишите мне в [телеграм](https://t.me/freddypopa1)
+
+## ЗАДАНИЕ
+
+1. Создаить одностраничное приложение “Список компаний”, используя библиотеку React.js.
+
+## Дано 
+1. Слева имеется таблица со списком компаний. Справа - таблица сотрудников выбранной компании. Данные в таблицах должны храниться в сторе.
+2. Данные для таблиц "компании" и "сотрудники" - фейковые, создать самостоятельно.
+3. Шапка таблицы "компании": Чекбокс “Выделить всё”
+   Тело таблицы имеет столбцы: | Чекбокс | Название компании | Кол-во сотрудников | Адрес
+4. При клике по чекбоксу в строке, соответствующая строка выделяется цветом на ваше усмотрение. При клике по чекбоксу “Выделить всё” - выделяются все строки.
+
+## Требования 
+react, redux(redux-toolkit), typescript, остальное на ваше усмотрение, НО стоит использовать минимальное кол-во библиотек(например, таблицу нужно точно сделать самостоятельно, без сторонних библиотек)
+
+
+
+
