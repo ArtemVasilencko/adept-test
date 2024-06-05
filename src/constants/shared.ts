@@ -4,7 +4,7 @@ export const MODES: Record<string, 'companies' | 'employees'> = {
 }
 
 export const URLS = {
-    COMPANIES: 'http://localhost:3000/companies',
+    COMPANIES: 'https://69c098ca534658a3.mokky.dev/companies',
 }
 
 export const FIELD_NAMES = {
