@@ -1,0 +1,16 @@
+.mainPage {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1350px;
+}
+
+@media screen and (max-width: 1360px) {
+    .mainPage {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 430px) {
+    * {
+      font-size: 11px;
+    }
+}

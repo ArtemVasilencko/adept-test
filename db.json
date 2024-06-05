@@ -1,0 +1,122 @@
+{
+  "companies": [
+      {
+          "id": "1",
+          "name": "Компания 1",
+          "employees": [
+              {
+                  "firstName": "Ivan",
+                  "lastName": "Ivanov",
+                  "jobTitle": "Software Engineer",
+                  "checked": false,
+                  "id": "1"
+              },
+              {
+                  "firstName": "Petr",
+                  "lastName": "Petrov",
+                  "jobTitle": "Data Scientist",
+                  "checked": false,
+                  "id": "2"
+              },
+              {
+                  "firstName": "Sergey",
+                  "lastName": "Sidorov",
+                  "jobTitle": "UX Designer",
+                  "checked": false,
+                  "id": "3"
+              }
+          ],
+          "employeesCount": 3,
+          "address": "ул. Лермонтова, 10",
+          "checked": false
+      },
+      {
+          "id": "2",
+          "name": "Компания 2",
+          "employees": [
+              {
+                  "firstName": "Dmitry",
+                  "lastName": "Smirnov",
+                  "jobTitle": "Network Engineer",
+                  "checked": false,
+                  "id": "1"
+              },
+              {
+                  "firstName": "Alexey",
+                  "lastName": "Kuznetsov",
+                  "jobTitle": "Security Specialist",
+                  "checked": false,
+                  "id": "2"
+              },
+              {
+                  "firstName": "Mikhail",
+                  "lastName": "Popov",
+                  "jobTitle": "Database Administrator",
+                  "checked": false,
+                  "id": "3"
+              },
+              {
+                  "firstName": "Andrey",
+                  "lastName": "Volkov",
+                  "jobTitle": "System Analyst",
+                  "checked": false,
+                  "id": "4"
+              },
+              {
+                  "firstName": "Vladimir",
+                  "lastName": "Morozov",
+                  "jobTitle": "DevOps Engineer",
+                  "checked": false,
+                  "id": "5"
+              },
+              {
+                  "firstName": "Nikolay",
+                  "lastName": "Fedorov",
+                  "jobTitle": "Mobile Developer",
+                  "checked": false,
+                  "id": "6"
+              }
+          ],
+          "employeesCount": 6,
+          "address": "ул. Пушкина, 20",
+          "checked": false
+      },
+      {
+          "id": "3",
+          "name": "Компания 3",
+          "employees": [
+              {
+                  "firstName": "Oleg",
+                  "lastName": "Belov",
+                  "jobTitle": "AI Specialist",
+                  "checked": false,
+                  "id": "1"
+              },
+              {
+                  "firstName": "Igor",
+                  "lastName": "Lebedev",
+                  "jobTitle": "Blockchain Developer",
+                  "checked": false,
+                  "id": "2"
+              },
+              {
+                  "firstName": "Roman",
+                  "lastName": "Kozlov",
+                  "jobTitle": "Cloud Architect",
+                  "checked": false,
+                  "id": "3"
+              },
+              {
+                  "firstName": "Evgeny",
+                  "lastName": "Sokolov",
+                  "jobTitle": "IoT Engineer",
+                  "checked": false,
+                  "id": "4"
+              }
+          ],
+          "employeesCount": 4,
+          "address": "ул. Чехова, 30",
+          "checked": false
+      }
+  ]
+}
