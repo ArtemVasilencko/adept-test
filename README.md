@@ -1,5 +1,5 @@
 # ВАЖНО
-Исходные данные компаний достаются с помощью mokky.dev https://mokky.dev/dashboard/projects
+Исходные данные компаний достаются с помощью mokky.dev https://mokky.dev/
 Остались вопросы? Напишите мне в [телеграм](https://t.me/freddypopa1)
 
 
