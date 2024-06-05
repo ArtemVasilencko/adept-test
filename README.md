@@ -1,6 +1,12 @@
+# ВАЖНО
+Исходные данные компаний достаются с помощью mokky.dev https://mokky.dev/
+Остались вопросы? Напишите мне в [телеграм](https://t.me/freddypopa1)
+
+
+
 # Тестовое задание в Адепт
 
-Deploy - soon
+Deploy - [deploy](https://artemvasilencko.github.io/adept-test/)
 
 ### Используемые технологии:
 
@@ -22,10 +28,10 @@ git clone git@github.com:ArtemVasilencko/adept-test.git
 npm i
 ```
 
-3. Запустить приложение (запуск json-server и сборка vite)
+3. Запустить приложение
 
 ```sh
-npm start
+npm run dev
 ```
 
 ### Команда для создания итоговой сборки
@@ -33,8 +39,6 @@ npm start
 ```sh
 npm run build
 ```
-
-Остались вопросы? Напишите мне в [телеграм](https://t.me/freddypopa1)
 
 ## ЗАДАНИЕ
 
