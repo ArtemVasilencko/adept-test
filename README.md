@@ -1,5 +1,5 @@
 # ВАЖНО
-Исходные данные компаний достаются с помощью json-server, на деплое он не работает, нужно запускать локально чтобы данные отгружались.
+Исходные данные компаний достаются с помощью mokky.dev https://mokky.dev/dashboard/projects
 Остались вопросы? Напишите мне в [телеграм](https://t.me/freddypopa1)
 
 
@@ -28,10 +28,10 @@ git clone git@github.com:ArtemVasilencko/adept-test.git
 npm i
 ```
 
-3. Запустить приложение (запуск json-server и сборка vite)
+3. Запустить приложение
 
 ```sh
-npm start
+npm run dev
 ```
 
 ### Команда для создания итоговой сборки
